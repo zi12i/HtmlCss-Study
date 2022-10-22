@@ -1,0 +1,232 @@
+.profile{
+width: 200px; 
+display: block; 
+margin-left: auto; 
+margin-right: auto
+}
+
+.name{
+text-align: center; 
+color: rgb(18, 143, 206);
+}
+
+.intro{
+text-align: center; 
+color:rgb(250, 202, 10)
+}
+
+#special {
+    text-align: center
+}
+
+.box {
+    width: 100px;
+    background: cadetblue;
+    margin: 10px;
+    padding: 40px;
+    border: 4px solid rgb(131, 174, 171);
+    border-radius: 15px;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center; 
+    box-shadow: 2px 2px 2px 1px rgb(108, 127, 108);
+}
+
+
+
+
+.container{
+width: 1000px;
+height: 800px;
+padding: 50px;
+background: lightblue;
+}
+.left-container{
+width: 75%;
+height: 250px;
+float: left
+}
+.top{
+width: 100%;
+height: 75px;
+float: left;
+}
+
+.icon {
+    height: 75px;
+    float: left;
+    margin-left: 10px;
+}
+
+.id {
+    height:75px;
+    margin-left: 30px;
+    font-size: 15px;
+    float: left;
+    color: grey
+}
+
+.contentpart{
+width:100%;
+height: 175px;
+clear:both;
+}
+
+.head{
+width: 100%;
+height: 20px;
+font-size: 18px;
+clear: both;
+font-weight: bold; 
+color: black;
+}
+
+.content{
+width: 100%;
+height: 155px;
+font-size: 15px;
+color: grey;
+line-height: 30px;
+}
+
+.right{
+    width:25%;
+    height:250px;
+    float: left;
+}
+
+.navbar li{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/kkwak.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top:50px;
+}
+
+.main-content {
+    color: rgb(236, 254, 243);
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.btn1 {
+    color:rgb(5, 130, 88);
+    font-size: 30px;
+    background-color: aliceblue;
+    margin-top: 80px;
+    border: none;
+    border-radius: 15px;
+    float: right;
+}
+
+.box-content {
+    background-color: rgb(184, 209, 255);
+    color: rgb(0, 119, 255);
+    margin-top: -40px;
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center; 
+}
+
+.text-input{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.background_div{
+    width: 100%;
+    height: 100%;
+    background: darkslategray;
+}
+
+.contact_div{
+   width: 450px;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.names{
+    float: left;
+    width: 220px;
+}
+
+.message{
+    width: 400px;
+}
+
+input[type=text]{
+    border-radius: 5px;
+    height: 30px;
+}
+
+.btn2{
+    background: rgb(250, 208, 0);
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+    padding: 8px;
+    border: none;
+}
+
+table {
+    border-collapse:collapse;
+    width:900px;
+    height:500px;
+    background: white;
+    border-radius: 5px;
+}
+
+.paybtn{
+    background: navy;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    float: left;
+}
+
+a {
+    color: navy;
+}
+
+.link {
+    margin-top: 20px;
+    float: left;
+    width: 690px;
+}
+
+th, td {
+    border-bottom: 1px solid lightblue;
+    padding: 10px;
+  }
