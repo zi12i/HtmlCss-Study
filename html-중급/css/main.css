@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'yeongnam';
+    src: url(../font/MYYeongnamnu.ttf);
+}
+
+body {
+    font-family: 'yeongnam';
+    transform: rotate(0.03deg);
+}
