@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'yeongnam';
+    src: url(../font/MYYeongnamnu.ttf);
+}
+
+body {
+    font-family: 'yeongnam';
+    transform: rotate(0.03deg);
+}
+
+.navContainer {
+    align-items: center;
+    display: flex;
+    background-color: coral;
+    width: 100%;
+    height: 100px;
+}
+.navContent {
+    color: white;
+    font-size: 80px;
+    margin: 5px;
+}
+.responsiveContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+.responsiveItem {
+    font-size: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+	.responsiveContainer {
+        flex-wrap: wrap;
+    }
+    .responsiveItem {
+        font-size: 40px;
+        width: 40vw;
+        text-align: center;
+    }
+ }
+ @media screen and (max-width: 768px) {
+	.responsiveContainer {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .responsiveItem {
+        font-size: 30px;
+    }
+ }
