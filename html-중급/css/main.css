@@ -85,7 +85,8 @@
     height: 40vh;
     display: flex;
     justify-content: center;
-    background-color: Orange;
+    background-image: linear-gradient(rgb(255, 213, 0), orange);
+    /* background-color: Orange; */
     padding-top: 50px;
 }
 .headerContent {
@@ -109,6 +110,11 @@
     background-color: orangered;
     border: none;
     border-radius: 10px;
+}
+.showBtn:hover {
+    background-color: white;
+    color: orangered;
+    border: solid 0.5px orangered
 }
 .introduceTube {
     width: 100vw;
@@ -158,6 +164,7 @@
 }
 .imageContent {
     width: 40vw;
+    position: relative;
 }
 .tube {
     width: 100%;
