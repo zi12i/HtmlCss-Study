@@ -150,6 +150,34 @@
     padding: 15px;
     color: orange;
 }
+.imagesContainer {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imageContent {
+    width: 40vw;
+}
+.tube {
+    width: 100%;
+    height: 100%;
+}
+.snsIcons {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    justify-content: center;
+    width: 100vw;
+}
+.snsIcon {
+    font-size: 30px;
+    border-radius: 100px;
+    background-color: orange;
+    padding: 15px;
+    color: white;
+}
+
 
 @media screen and (max-width: 1200px) {
 	.responsiveContainer {
