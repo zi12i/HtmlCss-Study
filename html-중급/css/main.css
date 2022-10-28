@@ -164,11 +164,21 @@
 }
 .imageContent {
     width: 40vw;
-    position: relative;
+}
+.animationOverlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    box-shadow: 0 0 0 0px #ffffff inset;
+}
+.animationOverlay:hover {
+    box-shadow: 0 0 0 30px #ffffff inset;
 }
 .tube {
     width: 100%;
     height: 100%;
+    display: block;
 }
 .snsIcons {
     display: flex;
