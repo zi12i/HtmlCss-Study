@@ -210,27 +210,6 @@
 	.responsiveContainer {
         flex-direction: column;
         justify-content: center;
-        display: flex;
-    }
-    .headerContainer {
-        height: 80%;
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        padding: 30px;
-    }
-    .headerContent {
-        font-size: 13px;
-        width: 100%;
-    }
-    .headerImage {
-        width: 80%;
-        justify-content: center;
-    }
-    .tubeImage {
-        width: 300px;
-        height: 300px;
-        justify-content: center;
     }
     .responsiveItem {
         font-size: 30px;
