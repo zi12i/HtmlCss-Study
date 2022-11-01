@@ -1,0 +1,18 @@
+.fullContainer {
+    background-color: lightcyan;
+    height: 100%;
+    width: 100%;
+}
+.profile {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+.profileBox {
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+}
+.ProfileImage {
+    padding: 30px 20px 30px 20px;
+}
